@@ -1,0 +1,16 @@
+class_id = 0, name = non-pedestrian, ap = 50.27%   	 (TP = 8957, FP = 6460) 
+class_id = 1, name = pedestrian, ap = 53.32%   	 (TP = 1936, FP = 1240) 
+
+ for conf_thresh = 0.25, precision = 0.59, recall = 0.49, F1-score = 0.53 
+ for conf_thresh = 0.25, TP = 10893, FP = 7700, FN = 11263, average IoU = 43.65 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.517929, or 51.79 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.517929 
+New best mAP!

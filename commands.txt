@@ -1,0 +1,7 @@
+calculate Map
+../darknet/darknet detector map ../data/eurocity.data ../data/yolov4_eurocity.cfg ../saved_model/yolov4_eurocity_best.weights -thresh 0.25
+
+
+for testing use testing.sh
+
+ ./darknet detector map ../data/eurocity.data ../data/yolov4_eurocity.cfg ../saved_model/yolov4_eurocity_best.weights -thresh 0.5 | tee ../results/testing_log.txt
